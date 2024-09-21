@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --preto-eafc: rgb(4, 17, 1);
+    --verde-eafc: rgb(0, 97, 0);
+}
+
+
+body{
+    background: url("C:/xampp/htdocs/EAFC24_teste/images/fc24-fut-inc-women-ultimate-means-everyone-bg-1x1.jpg.adapt.320w.jpg"), var(--preto-eafc);
+}
+
+.titulo-img img{
+    width: 200px;
+    height: 100px;
+    margin-left: 12.5cm;
+    margin-top: 1.5cm;
+    margin-bottom: -1cm;
+}
+
+.titulo-frase h1{
+    color: var(--verde-eafc);
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: 3cm;
+    margin-bottom: -2cm;
+    margin-left: 4cm;
+}
+
+.caixa-login{
+    background-color: var(--verde-eafc);
+    width: 150mm;
+    height: 180px;
+    margin-top: 150px;
+    margin-left: 300px;
+    border-radius: 50px;
+    padding-top: 10px;
+}
+
+.caixa-login label{
+    background-color: white;
+    width: 50%;
+    margin-left: 140px;
+    height: 21%;
+    font-size: medium;
+}
+
+.caixa-login .label-login{
+    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.caixa-login .label-senha{
+    padding-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.caixa-login label input{  
+    padding: 5px;
+    border: 10px;
+    margin-left: 10px;
+}
+
+.caixa-login label, .caixa-login .botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-login .botao button{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -20px;
+    color: var(--verde-eafc);
+}
+
